@@ -1,5 +1,6 @@
 # Use OpenJDK base image
-FROM eclipse-temurin:17-jdk     # Full JDK via Eclipse Temurin
+FROM FROM eclipse-temurin:17-jdk-jammy
+# Full JDK via Eclipse Temurin
 
 
 WORKDIR /app
